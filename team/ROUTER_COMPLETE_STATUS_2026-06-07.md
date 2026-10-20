@@ -35,7 +35,7 @@ The Polyshark Router is a daemon that monitors whale positions on Polymarket and
 | TOP PLAYS | -1003957370508 | Auto |
 
 ### Bot
-`@oc_a3bot` — token: `8484803155:AAHa2B2zrIq_GavdX6FGWcFkAPiySQef7q8`
+`@oc_a3bot` — token: `[REDACTED_TELEGRAM_BOT_TOKEN]`
 
 ## All 13 Bugs Found & Fixed (June 7 2026)
 
@@ -264,7 +264,7 @@ POLL_TOP_N = 20                      # How many wallets per scan run
 # In polyshark_router.py
 PRO_DELAY = 0           # Fire immediately
 FREE_DELAY = 21600      # 6 hour delay for free channel
-BOT_TOKEN = '8484803155:AAHa2B2zrIq_GavdX6FGWcFkAPiySQef7q8'
+BOT_TOKEN = '[REDACTED_TELEGRAM_BOT_TOKEN]'
 CHANNELS = {
     'alert': -1003786930778,   # Alert Hub
     'pro': -1003739747776,      # PRO
